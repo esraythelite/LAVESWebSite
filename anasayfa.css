@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Old Standard TT", serif;
+}
+
+.container {
+  width: 1200px;
+  height: 3000px;
+  background-color: #8e7ab9;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  padding: 100px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navbar-center-side {
+  height: 100px;
+  width: 1200px;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  grid-area: g2;
+}
+
+.navbar-center-side ul {
+  list-style-type: none;
+  display: flex;
+  padding-top: 60px;
+}
+
+.navbar-center-side ul li {
+  /* padding: 20px;
+    padding-top: 40px;
+    padding-right: 30px; */
+}
+
+.navbar-center-side ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 24px;
+  padding-right: 30px;
+}
+
+.navbar-left-side input {
+  width: 80px;
+  grid-area: g1;
+  margin-left: 30px;
+}
+
+.mainbar {
+  display: grid;
+  grid-template-columns: 1px 1100px;
+  grid-template-areas: "g1 g2";
+}
+
+.forhr {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  size: 10px;
+  width: 1100px;
+}
+
+.grid-container {
+  display: grid;
+  width: 1100px;
+  grid-template-columns: 550px 550px;
+  grid-template-areas:
+    "g g"
+    "g g"
+    "g1 g2"
+    "g3 g4"
+    "g5 g6";
+
+    padding-left: 50px;
+  
+}
+
+.main-center-side {
+  display: grid;
+}
+
+.main-center-side img {
+  grid-area: g;
+  border-radius: 10px;
+}
+
+.grid-item-lavantalar {
+  grid-area: g1;
+  padding-top: 50px;
+}
+
+.grid-item-lavantalar input {
+  border-radius: 500px;
+  width: 400px;
+}
+
+.grid-item-hakkımızda {
+  grid-area: g2;
+  padding-top: 50px;
+}
+
+.grid-item-hakkımızda input {
+  border-radius: 500px;
+  width: 400px;
+}
+
+.grid-item-urunlerimiz {
+  grid-area: g3;
+  padding-top: 50px;
+}
+
+.grid-item-urunlerimiz input {
+  border-radius: 500px;
+  width: 400px;
+}
+.grid-item-satis-noktalarimiz {
+  grid-area: g4;
+  padding-top: 50px;
+}
+
+.grid-item-satis-noktalarimiz input {
+  border-radius: 500px;
+  width: 400px;
+}
+
+.grid-item-iletisim {
+  grid-area: g5;
+  padding-top: 50px;
+}
+
+.grid-item-iletisim input {
+  border-radius: 500px;
+  width: 400px;
+} 
+
+.grid-item-yazi {
+  grid-area: g6;
+  padding-top: 50px;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title a {
+  padding-right: 130px;
+  font-size: 40px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.title p{
+  padding-top: 220px;
+  padding-right: 150px;
+  font-size: 40px;
+  font-weight: bold;
+  color: whitesmoke;
+}
